@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Gill Sans", sans-serif;
+  background-color: #898989;
+  background-image: radial-gradient(whitesmoke, #898989);
+}
+
+section {
+  border: 3px solid whitesmoke;
+  width: 300px;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: center;
+  background-color: hsla(240, 78%, 18%, 0.894);
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+button {
+  width: 60px;
+  margin-bottom: 20px;
+  border: 1px solid whitesmoke;
+}
+
+.green {
+  background-color: green;
+  color: whitesmoke;
+}
+.red {
+  background-color: rgb(136, 7, 7);
+  color: whitesmoke;
+}
